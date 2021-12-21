@@ -1,0 +1,13 @@
+
+
+/*function success(position) {
+    var latitude  = position.coords.latitude;
+    var longitude = position.coords.longitude;
+    console.log(latitude, longitude);
+    }
+navigator.geolocation.getCurrentPosition(success);
+  */
+ 
+var tweet=prompt("write ur tweet?");
+tweetCount=tweet.length;
+alert(tweet+" you have returned "+tweetCount+" characters "+ " you were left with "+  ( 100-tweetCount)+" characters remaining.");
